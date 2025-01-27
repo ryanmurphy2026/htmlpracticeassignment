@@ -1,0 +1,19 @@
+h1 {
+    font-family: "Barrio";
+    font-size: 72px;
+    background-color: #00ecff;
+}
+
+h2 {
+    font-family: "Barrio";
+}
+
+
+#byline {
+    margin-top: -2%;
+}
+
+body {
+    background-color: #ff00e7;
+    color: #a3ff00;
+}
