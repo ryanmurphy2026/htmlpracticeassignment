@@ -8,6 +8,9 @@ h2 {
     font-family: "Barrio";
 }
 
+.regularimages {
+    border: 8px solid #2200ff;
+}
 
 #byline {
     margin-top: -2%;
@@ -16,4 +19,16 @@ h2 {
 body {
     background-color: #ff00e7;
     color: #a3ff00;
+}
+
+.image-hover {
+    width: 450px; /* Specify the width */
+    height: 450px; /* Specify the height */
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/c/c9/9posterfinal.jpg); /* Initial background image */
+    background-size: cover; /* Cover the entire area of the element */
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+.image-hover:hover {
+    background-image: url(https://chumley.barstoolsports.com/union/2024/06/12/costco-boom.fc6eca5c.png?crop=0.99%2C0.69%2Cx0.00%2Cy0.07%2Csafe&width=560); /* Change on hover */
 }
