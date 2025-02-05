@@ -32,3 +32,24 @@ body {
 .image-hover:hover {
     background-image: url(https://chumley.barstoolsports.com/union/2024/06/12/costco-boom.fc6eca5c.png?crop=0.99%2C0.69%2Cx0.00%2Cy0.07%2Csafe&width=560); /* Change on hover */
 }
+
+#donut-container{
+    background: radial-gradient(transparent, yellow);
+    height: 60vh;  
+    overflow: hidden;
+    position: relative;
+}
+
+#pattern{
+background-image: url("https://assets.codepen.io/1468070/Star+Pattern+3.svg");
+  background-size: 20%;  
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0%;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  min-width: 1200px;
+  opacity: .3;
+}
